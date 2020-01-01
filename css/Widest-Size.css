@@ -1,0 +1,139 @@
+/*************************************************************************************/
+/*** CSS for Mid-Size width display **************************************************/
+/*************************************************************************************/
+
+body {
+  background-color: #ffcc99;
+  font-family: "Lucida Console", Monaco, monospace;
+  font: normal small normal Monaco;
+}
+
+a {
+  color: #ff0000;
+  font-size: 1.00em;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #ff0000;
+}
+
+h1 {
+  font-size: 2.50em;
+  padding: 5px;
+  color: #02b3e4;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.50em;
+  padding: 10px;
+}
+
+/* -----------------  Header Section  ------------------*/
+
+.headerGrid {
+  display: grid;
+  grid-template-areas: 'myArea myArea myArea';
+  grid-template-columns: auto auto auto;
+  align-content: end;
+  justify-content: space-around;
+  background-color: #f1f1f1;
+  background-image: url("../img/hotAirBalloonsWide.jpg");
+  margin: auto;
+  width: 750px;
+}
+
+.headerGridTitle {
+  grid-area: myArea;
+  text-align: center;
+  height: 90px;
+  font-size: 4.00em;
+  font-style: italic;
+  color: #993366;
+}
+
+.headerGridItem {
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.75em;
+}
+
+/* -----------------  Article Section ------------------*/
+
+.articleFlexContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 750px;
+}
+
+.articleFlexItem {
+  width: 90%;
+  margin: auto;
+  padding: .20em;
+  text-align: center;
+}
+
+.articlePic {
+  display: block;
+  margin: auto;
+  padding: .32em;
+  width: 90%;
+  max-height: 300px;
+}
+
+/* -----------------  Other pages  ------------------*/
+
+.aboutMeItem {
+  font-size: 3.50em;
+  font-style: italic;
+}
+
+.backToHomepage {
+  color: #ff0000;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* -----------------  Footer ------------------*/
+
+.footerFlexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  margin: auto;
+  width: 750px;
+}
+
+.footerFlexItem {
+  margin: 5px;
+}
+
+.footerGraphic {
+  display: block;
+  margin: 10px auto;
+  max-height: 400px;
+  max-width: 750px;
+}
+
+.footerDescr {
+  color: #7d97ad;
+  display: block;
+  margin: 10px auto;
+  max-height: 80px;
+  max-width: 750px;
+  text-align: center;
+}
